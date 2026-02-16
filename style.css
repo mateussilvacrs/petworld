@@ -2,13 +2,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-    overflow-x: hidden;
+
 }
 
 body {
   min-height: 100vh;
   background-color: #f7f5fd;
   font-family: "SN Pro", sans-serif;
+    overflow-x: hidden;
+
 }
 
 .menu {
@@ -18,6 +20,10 @@ body {
   padding: 20px 100px;
   align-items: center;
   background-color: #fff;
+}
+
+.menu-mobile, .buttons-mobile{
+  display: none;
 }
 
 .img-logo {
@@ -298,16 +304,50 @@ i {
 @media (max-width: 720px) {
   
   .menu{
-    padding: 0;
-    margin: 0;
-    justify-content: center;
+    padding: 0 20px;
     height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .btn-login, .btn-signup{
-    display: none;
+ .menu-desktop{
+  display: none;
+ }
+
+ .buttons-mobile.active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    height: 140px;
+ }
+ 
+ .btn-login, .btn-signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ margin-top: 20px;
+
+
   }
-  
+
+  .menu-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+
+  .menu-mobile i{
+        font-size: 1.5rem;
+        align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
   .first-div{
     flex-direction: column;
     padding: 0px 15px;
@@ -367,4 +407,71 @@ i {
   margin-bottom: 15px;
   font-size: 20px;
 }
+
+footer{
+  padding: 0;
+
+}
+.container-footer{
+    display: flex;
+  flex-direction: column;
+    width: 100%;
+
+}
+
+.first-div-footer {
+  margin-top: 20px;
+
+}
+
+.img-logo, .promotion-div{
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+ .btn-div-promotion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    width: 100%;
+
+ }
+
+ .btn-div-promotion input, button{
+  width: 70%;
+ }
+
+ .menu-footer{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+ }
+.links{
+  gap: 5px;
+ }
+
+ .second-div-footer{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  width: 100%;
+ }
+
+ .privacy{
+  display: flex;
+  flex-direction: column;
+    width: 100%;
+      gap: 15px;
+
+}
+
+.socials{
+  margin-top: 20px;
+}
+
 }
