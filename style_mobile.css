@@ -1,0 +1,285 @@
+@media (max-width: 1440px) {
+
+.title-first-page {
+  font-size: 50px;
+}
+
+    .txt-first-page {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.second-div {
+
+      margin-top: 50px;
+}
+.privacy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  text-align: center;
+}
+
+.socials i {
+  font-size: 24px;
+
+}
+
+
+}
+
+
+
+@media (max-width: 1280px) {
+
+      .menu{
+    padding: 0 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ .menu-desktop{
+  display: none;
+ }
+
+ .buttons-mobile.active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    height: 140px;
+ }
+ 
+ .btn-login, .btn-signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ margin-top: 20px;
+
+
+  }
+
+  .menu-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+
+  .menu-mobile i{
+        font-size: 1.5rem;
+        align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+    .first-div{
+    flex-direction: column;
+    padding: 0px 15px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+    .title-first-page{
+    font-size: 35px;
+  }
+
+    .txt-first-page{
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 60px;
+    }
+     .sub-title{
+  font-size: 30px;
+ }
+ol {
+  font-size: 18px;
+}
+img, video{
+  height: auto;
+  max-width: 100%;
+}
+.btn-get-start button{
+  margin-bottom: 40px;
+}
+
+.second-div{
+  margin-top: 0px;
+   
+}
+
+
+.four-div-grid{
+  display: flex;
+  flex-direction: column;
+    height: 100%;
+}
+
+.title-grid {
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.four-div-grid i {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+  footer{
+  padding: 0;
+
+}
+.container-footer{
+    display: flex;
+  flex-direction: column;
+    width: 100%;
+
+}
+
+
+.first-div-footer {
+  margin-top: 60px;
+
+}
+
+.img-logo, .promotion-div{
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+ .btn-div-promotion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    width: 100%;
+
+ }
+
+ .btn-div-promotion input, button{
+  width: 70%;
+ }
+
+ .menu-footer{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+ }
+
+ .title-links-footer{
+    font-size: 20px;
+ }
+.links{
+  gap: 5px;
+  font-size: 18px;
+ }
+
+ .second-div-footer{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  width: 100%;
+ }
+
+ .privacy{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    width: 60%;
+    
+
+}
+
+.socials{
+  margin-top: 20px;
+}
+
+.socials i{
+    font-size: 25px;
+}
+
+  }
+
+
+@media (max-width: 768px) {
+  
+          .title-first-page{
+    font-size: 30px;
+  }
+
+  .txt-first-page{
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+
+
+ .sub-title{
+  font-size: 25px;
+ }
+ol {
+  font-size: 16px;
+}
+
+.three-div-img {
+    display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 100%;
+  padding: 20px;
+}
+.three-div-img img{
+  margin-top: 40px;
+      height: 100%;
+
+
+}
+
+.four-div-grid i {
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+
+.title-grid {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+
+
+.first-div-footer {
+  margin-top: 20px;
+
+}
+
+
+.links{
+  gap: 5px;
+    font-size: 16px;
+
+ }
+
+
+ .privacy{
+  display: flex;
+  flex-direction: column;
+    width: 100%;
+      gap: 15px;
+
+}
+
+.socials{
+  margin-top: 20px;
+}
+
+}
+

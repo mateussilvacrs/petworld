@@ -265,7 +265,6 @@ input {
 
 .privacy h2 {
   font-family: "Audiowide", sans-serif;
-
   font-size: 18px;
 }
 
@@ -282,8 +281,8 @@ input {
 
 }
 
-i {
-  font-size: 20px;
+.socials i {
+  font-size: 30px;
   color: black;
   transition: all 0.5s;
   &:hover
@@ -301,177 +300,7 @@ i {
   align-items: center;
 }
 
-@media (max-width: 720px) {
-  
-  .menu{
-    padding: 0 20px;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
- .menu-desktop{
-  display: none;
- }
-
- .buttons-mobile.active{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #f1f1f1;
-    height: 140px;
- }
- 
- .btn-login, .btn-signup{
-    display: flex;
-    align-items: center;
-    justify-content: center;
- margin-top: 20px;
-
-
-  }
-
-  .menu-mobile{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  }
-
-
-  .menu-mobile i{
-        font-size: 1.5rem;
-        align-items: center;
-    justify-content: center;
-    margin-bottom: 0;
-  }
-
-  .first-div{
-    flex-direction: column;
-    padding: 0px 15px;
-    text-align: center;
-    margin-top: 50px;
-  }
-
-  .title-first-page{
-    font-size: 35px;
-  }
-
-  .txt-first-page{
-    width: 100%;
-    font-size: 16px;
-    margin-bottom: 60px;
-  }
- .sub-title{
-  font-size: 25px;
- }
-ol {
-  font-size: 16px;
-}
-img, video{
-  height: auto;
-  max-width: 100%;
-}
-.btn-get-start button{
-  margin-bottom: 40px;
-}
-.second-div{
-  margin-top: 0px;
-   
-}
-.three-div-img {
-    display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  height: 100%;
-}
-.three-div-img img{
-  margin-top: 40px;
-      height: 100%;
-
-
-}
-.four-div-grid{
-  display: flex;
-  flex-direction: column;
-    height: 100%;
-}
-i {
-  font-size: 35px;
-  margin-bottom: 25px;
-}
-
-.title-grid {
-  margin-bottom: 15px;
-  font-size: 20px;
-}
-
-footer{
-  padding: 0;
-
-}
-.container-footer{
-    display: flex;
-  flex-direction: column;
-    width: 100%;
-
-}
-
-.first-div-footer {
-  margin-top: 20px;
-
-}
-
-.img-logo, .promotion-div{
-      display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-
- .btn-div-promotion{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-    width: 100%;
-
- }
-
- .btn-div-promotion input, button{
-  width: 70%;
- }
-
- .menu-footer{
-  display: flex;
-  flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-
- }
-.links{
-  gap: 5px;
- }
-
- .second-div-footer{
-    display: flex;
-    flex-direction: column;
-  justify-content: center;
-  width: 100%;
- }
-
- .privacy{
-  display: flex;
-  flex-direction: column;
-    width: 100%;
-      gap: 15px;
-
-}
-
-.socials{
-  margin-top: 20px;
-}
-
+.h2-developer a{
+  color: #2e5be0;
+  text-decoration: none;
 }

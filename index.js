@@ -5,5 +5,4 @@ console.log(menumobile)
 
   menumobile.addEventListener('click', () => {
     buttonsmobile.classList.toggle("active")
-    console.log("ativo")
   });
